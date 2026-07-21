@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "publisher": "node src/publisher/publisher.js",
+    "consumer": "node src/consumer/consumer.js"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
